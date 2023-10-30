@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: Mitr;
+    src: url(fonts/Mitr/Mitr-Light.ttf);
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: MitrB;
+    src: url(fonts/Mitr/Mitr-SemiBold.ttf);
+}
+.navb{
+    font-family: 'Mitr',sans-serif;
+    color: white ;  
+}
+body{
+    background-color: rgb(22, 22, 27);
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 300 ;
+    color:white; 
+}
+a{
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color:black
+}
+a:focus {
+    outline: 2px ; /* Replace with your desired color */
+    /* You can also customize other properties like outline-offset, etc. */
+}
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh);
+}
+card{
+    opacity:0.3
+}
+.btn-no-outline:focus {
+    outline: none;
+    box-shadow: none;
+}
+.carousel-control-prev-icon {
+    flex: unset !important;
+}
+.fixed-height-img {
+    height: 160px; /* Adjust the height as needed */
+    width: auto;
+}
+.fixed-height-img2 {
+    height: 220px; /* Adjust the height as needed */
+    width: auto;
+}
+.thmp{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .2rem;
+}
+.font-cl{
+    color: white;
+}
+.modal-body{
+    color: black;
+}
+.card{
+    color: white;
+}
+.thmp2{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: .2rem;
+}
+.cl-p{
+    color:rgb(22, 22, 27);
+}
+.fixh{
+    width: auto;
+    height: 300px;
+}
+.modal-title{
+    color: black;
+}
